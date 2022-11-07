@@ -1,3 +1,5 @@
+import { runInNewContext } from "vm";
+
 const axios = require('axios');
 
 export default async function handler(req, res) {
@@ -7,12 +9,15 @@ export default async function handler(req, res) {
     if (!req.query.q) {
       return res.status(400).send('Missing query parameter q');
     }
+
+    let size = req.query.size || 256;
+   
     try {
       const apicall = await axios.post('https://api.openai.com/v1/images/generations',
         {
           "prompt": req.query.q.split('/').join(''),
           "n": 1,
-          "size": "256x256"
+          "size": `${size}x${size}`
         },
         {
           headers: {

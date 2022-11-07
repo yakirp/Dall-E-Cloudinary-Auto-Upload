@@ -41,7 +41,7 @@ Next:
  
 
 <div className='felx flex justify-center mt-7'>
-    <div>{`https://res.cloudinary.com/`}</div><div className='text-orange-500'>{'<your cloud name>'}</div><div>{'/image/upload/f_auto,q_auto/dall-e/'}</div><div className='text-orange-500'>{'<text>'}</div>
+    <div>{`https://res.cloudinary.com/`}</div><div className='text-orange-500'>{'<your cloud name>'}</div><div>{'/image/upload/f_auto,q_auto/dall-e/'}</div><div className='text-orange-500'>{'<size> 256 | 512 | 1024'}</div><div className='text-black'>{'/'}</div><div className='text-orange-500'>{'<text>'}</div>
 
     </div>
  
