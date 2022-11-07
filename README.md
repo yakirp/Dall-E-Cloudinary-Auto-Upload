@@ -17,7 +17,7 @@
 ##### That's all. 
 
 ### Use:
-`https://res.cloudinary.com/<your cloud name>/image/upload/f_auto,q_auto/dall-e/blue cat`
+`https://res.cloudinary.com/<your cloud name>/image/upload/f_auto,q_auto/dall-e/512 (or 256 | 1024)/blue cat`
 
 
 ## Author
