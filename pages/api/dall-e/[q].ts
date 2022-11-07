@@ -12,7 +12,7 @@ export default async function handler(req, res) {
         {
           "prompt": req.query.q.split('/').join(''),
           "n": 1,
-          "size": "1024x1024"
+          "size": "256x256"
         },
         {
           headers: {
